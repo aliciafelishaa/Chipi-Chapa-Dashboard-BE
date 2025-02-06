@@ -1,0 +1,109 @@
+.title-new-employee {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+.layout-add-emplo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.form-label-title {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form-material {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.form-new-employee {
+    margin-left: 2rem;
+}
+
+.form-material input {
+    width: 30rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid #fff;
+    /* background: none; */
+    padding: 1rem;
+}
+
+.form-material textarea {
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #fff;
+    /* background: none; */
+}
+
+.btn-submit {
+    border-radius: 0.3125rem;
+    background: #ff0000;
+    width: 30rem;
+    padding: 10px;
+    border-radius: 0.3125rem;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.btn-submit:hover {
+    background: #4d0808;
+}
+
+.chipi-chapa-ctr {
+    margin-left: 1rem;
+    width: 50%;
+    height: 29rem;
+    flex-shrink: 0;
+    border-radius: 2.25rem 0rem 0rem 2.25rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ch-ch-gr {
+    color: #081b3d;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.create-employee-section {
+    margin-bottom: 5rem;
+}

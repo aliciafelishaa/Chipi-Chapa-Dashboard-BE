@@ -296,10 +296,10 @@ li{
 
 /* FOOTER */
 .footer-container {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex: 1;
 }
 
 .foot-left {
@@ -399,6 +399,7 @@ li{
     background: #fff;
     padding: 1rem 2rem 2rem 2rem;
     transform: scaleY(-1);
+    flex: 1;
 }
 
 .line-footer {
@@ -422,4 +423,11 @@ li{
     display: flex;
     justify-content: end;
     margin-bottom: 10px;
+}
+
+.footer-container-hero {
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }

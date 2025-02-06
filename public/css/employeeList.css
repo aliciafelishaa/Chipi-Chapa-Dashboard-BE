@@ -1,0 +1,67 @@
+.light-nav-txt a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.light-nav-txt a:hover {
+    color: #ababab;
+}
+
+.bold-nav-txt a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+}
+.txt-nav-employee {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13rem;
+}
+
+/* SECTION1 */
+.title-section {
+    width: 35rem;
+    height: 6rem;
+    flex-shrink: 0;
+    border-radius: 0rem 6.25rem 6.25rem 0rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section p {
+    color: #081b3d;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.employ-list{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
