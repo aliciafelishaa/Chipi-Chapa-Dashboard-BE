@@ -21,9 +21,6 @@
                         <div class="form-new-employee">
                             <form action="{{route('employee.store')}}" method="POST">
                                 @csrf
-                                
-
-                                </div>
                                 <div class="form-material">
                                     <div>
                                         <label for="" class="form-label-title">Name</label>
