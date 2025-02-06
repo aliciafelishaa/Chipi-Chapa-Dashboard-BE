@@ -25,8 +25,15 @@
               <h6 class="card-subtitle mb-2 text-body-secondary">Age: {{$e->employee_age}}</h6>
               <h6 class="card-subtitle mb-2 text-body-secondary">Phone Number: {{$e->employee_phonenumber}}</h6>
               <p class="card-text">Address: {{$e->employee_address}}</p>
-              <a href="#" class="card-link">Edit</a>
-              <a href="#" class="card-link">Delete</a>
+              <div class="edit-delete">
+                  <a href="{{route('employee.update.page', $e->id)}}" class="btn btn-warning">Edit</a>
+                    <form action="{{route('employee.destroy', $e->id)}}" method="POST">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this employee?')">
+                        Delete</button>
+                    </form>
+              </div>
             </div>
           </div>
         @empty

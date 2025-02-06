@@ -94,7 +94,7 @@
 .chipi-chapa-ctr {
     margin-left: 1rem;
     width: 50%;
-    height: 29rem;
+    height: 20rem;
     flex-shrink: 0;
     border-radius: 2.25rem 0rem 0rem 2.25rem;
     background: #fff;
@@ -117,3 +117,4 @@
 .create-employee-section {
     margin-bottom: 5rem;
 }
+

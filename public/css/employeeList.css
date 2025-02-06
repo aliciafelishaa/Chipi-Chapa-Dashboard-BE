@@ -61,15 +61,27 @@ nav {
     line-height: normal;
     margin-bottom: 0;
 }
-.employ-list{
+.employ-list {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.employ-list{
+.employ-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Maksimal 3 kolom per baris */
+    gap: 1rem;
     padding: 2rem;
+}
+
+.edit-delete {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.card {
+    width: 100%; /* Menyesuaikan dengan grid */
+    max-width: 18rem; /* Batas maksimal lebar */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

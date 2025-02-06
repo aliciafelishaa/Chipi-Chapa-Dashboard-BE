@@ -15,21 +15,19 @@
 
     <section class="create-employee-section">
             <div class="title-section">
-                <p>Add New Employee</p>
+                <p>Update Employee</p>
             </div>
                     <div class="layout-add-emplo">
                         <div class="form-new-employee">
-                            <form action="{{route('employee.store')}}" method="POST">
+                            <form action="{{route('employee.update.data', $employeeUpdate->id)}}" method="POST">
                                 @csrf
-                                
-
-                                </div>
+                                @method('PUT')
                                 <div class="form-material">
                                     <div>
                                         <label for="" class="form-label-title">Name</label>
                                         <label for="" class="form-label-title-red">*</label>
                                     </div>
-                                    <input type="text" name="employee_name" id="" placeholder="Celine Dion" value="{{old('employee_name')}}">
+                                    <input type="text" name="employee_name" id="" value="{{$employeeUpdate->employee_name}}">
                                 </div>
                                 @error('employee_name')
                                 <p class="alert alert-danger">{{$message}}</p>
@@ -40,7 +38,7 @@
                                         <label for="" class="form-label-title">Address</label>
                                         <label for="" class="form-label-title-red">*</label>
                                     </div>
-                                    <input type="text" name="employee_address" id="" placeholder="Street Beverly No.19" value="{{old('employee_address')}}">
+                                    <input type="text" name="employee_address" id="" placeholder="Street Beverly No.19" value="{{$employeeUpdate->employee_address}}">
                                 </div>
                                 @error('employee_address')
                                 <p class="alert alert-danger">{{$message}}</p>
@@ -51,7 +49,7 @@
                                         <label for="" class="form-label-title">Age</label>
                                         <label for="" class="form-label-title-red">*</label>
                                     </div>
-                                    <input type="number" name="employee_age" id="" placeholder="25" value="{{old('employee_age')}}">
+                                    <input type="number" name="employee_age" id="" value="{{$employeeUpdate->employee_age}}">
                                 </div>
                                 @error('employee_age')
                                 <p class="alert alert-danger">{{$message}}</p>
@@ -62,7 +60,7 @@
                                         <label for="" class="form-label-title">Phone Number</label>
                                         <label for="" class="form-label-title-red">*</label>
                                     </div>
-                                    <input type="number" name="employee_phonenumber" id="" placeholder="089851481811" value="{{old('employee_phonenumber')}}">
+                                    <input type="number" name="employee_phonenumber" id="" value="{{$employeeUpdate->employee_phonenumber}}">
                                 </div>
                                 @error('employee_phonenumber')
                                 <p class="alert alert-danger">{{$message}}</p>
