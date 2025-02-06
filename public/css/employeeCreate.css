@@ -30,6 +30,16 @@
     line-height: normal;
 }
 
+.form-label-title-red{
+    color:red;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 .form-material {
     display: flex;
     flex-direction: column;

@@ -65,3 +65,11 @@ nav {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+.employ-list{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}

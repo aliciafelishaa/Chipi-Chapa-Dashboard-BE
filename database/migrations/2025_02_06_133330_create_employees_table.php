@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('employee_name');
             $table->integer('employee_age');
             $table->string('employee_address');
-            $table->integer('employee_phonenumber');
+            $table->string('employee_phonenumber');
             $table->timestamps();
         });
     }
